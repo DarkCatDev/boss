@@ -1,0 +1,24 @@
+
+@media (max-width: 576px){
+
+}
+
+
+@media (max-width: 355px){
+    .bc-links {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .bc-links button {
+        border-radius: 40px;
+        font-size: 15px;
+        padding: 10px;
+        padding-left: 15px;
+        padding-right: 15px;    
+    }
+}

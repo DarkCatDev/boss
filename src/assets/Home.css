@@ -1,0 +1,51 @@
+@media (max-width: 355px){
+    .phone {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .phone p {
+        font-size: 14px;
+    }
+    .phone img {
+        width: 100px;
+    }
+
+    .mess {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 25px;
+        margin-top: 200px;
+
+    }
+
+    .mess p {
+        border: 2px outset #FF8FCC;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #ffcedf;
+        margin-top: 1px;
+    }
+
+    .info {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .info button {
+        padding: 10px;
+        font-size: 13px;
+        background-color: #ffbee2;
+        border: 2px outset #FF8FCC;
+        border-radius: 4px;
+        
+    }
+}

@@ -1,0 +1,25 @@
+
+@media (max-width: 576px){
+
+}
+
+
+@media (max-width: 355px){
+    .embossed-layer .wrap {
+        width: 250px;
+        margin: 1px 15px 1px 15px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .embossed-layer .pagibig-pic {
+        width: 250px;
+
+    }
+
+    #img3 {
+        width: 250px;
+        margin: 20px 15px 5px 15px;
+    }
+}

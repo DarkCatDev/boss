@@ -1,0 +1,5 @@
+@media (min-width: 577px){
+    .phone {
+        display: none;
+    }
+}
