@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Home from './pages/Home';
 import Start from './pages/Start';
@@ -15,19 +15,19 @@ import Outside from './pages/OutsideProvince';
 
 function App() {
   return (
-    <Router basename ='/'>
+    <Router basename='/boss'>
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/start" element={<Start/>}/>
-        <Route path="/bc" element={<BirthCert/>}/>
-        <Route path="/vid" element={<ValID/>}/>
-        <Route path="/cftjs" element={<CertFTJS/>}/>
-        <Route path="/nbi" element={<NBI/>}/>
-        <Route path="/sss" element={<SSS/>}/>
-        <Route path="/pagibig" element={<PagIbig/>}/>
-        <Route path="/ph" element={<PhilHealth/>}/>
-        <Route path="/resume" element={<Resume/>}/>
-        <Route path="/outside" element={<Outside/>}/>
+        <Route path="/" element={<Home />} />
+        <Route path="/start" element={<Start />} />
+        <Route path="/bc" element={<BirthCert />} />
+        <Route path="/vid" element={<ValID />} />
+        <Route path="/cftjs" element={<CertFTJS />} />
+        <Route path="/nbi" element={<NBI />} />
+        <Route path="/sss" element={<SSS />} />
+        <Route path="/pagibig" element={<PagIbig />} />
+        <Route path="/ph" element={<PhilHealth />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/outside" element={<Outside />} />
       </Routes>
     </Router>
   );
